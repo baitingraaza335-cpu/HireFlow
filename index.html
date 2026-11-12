@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="HireFlow helps modern teams manage jobs, candidates, interviews and hiring analytics in one clear workspace.">
+  <meta name="theme-color" content="#10172a">
+  <title>HireFlow — Hiring, in a better flow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/form.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="HireFlow home"><span class="brand-mark"><i
+            data-lucide="workflow"></i></span><span>hire<span class="brand-accent">flow</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+        aria-controls="nav-menu"><i data-lucide="menu"></i></button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#features">Features</a><a href="#how-it-works">How it works</a><a href="#pricing">Pricing</a><a
+          href="#about">About</a>
+        <a class="nav-login" href="#contact">Talk to sales</a>
+        <a class="button button-small button-primary" href="#contact">Get started <i
+            data-lucide="arrow-up-right"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> THE RECRUITMENT WORKSPACE FOR MODERN TEAMS</div>
+          <h1>Great people.<br><span>Better hiring.</span><br>One clear flow.</h1>
+          <p class="hero-description">Bring every role, candidate and interview into one calm, collaborative workspace.
+            HireFlow helps your team move from first hello to final offer with confidence.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#contact">Explore HireFlow <i
+                data-lucide="arrow-up-right"></i></a><a class="button button-ghost" href="#product-demo"><i
+                data-lucide="play-circle"></i> See product preview</a></div>
+          <div class="hero-proof">
+            <div class="avatar-stack"><span>AM</span><span>SK</span><span>JR</span><span>+</span></div>
+            <div><strong>Made for people-first teams</strong><small>Less admin. More meaningful conversations.</small>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" id="product-demo">
+          <div class="dashboard-window">
+            <div class="window-top">
+              <div class="window-dots"><b></b><b></b><b></b></div><span>Workspace / Overview</span><span
+                class="live-label"><i></i> Demo data</span>
+            </div>
+            <div class="dashboard-body">
+              <aside class="dash-sidebar">
+                <div class="dash-logo"><i data-lucide="workflow"></i></div><span class="side-active"><i
+                    data-lucide="layout-dashboard"></i></span><span><i
+                    data-lucide="briefcase-business"></i></span><span><i data-lucide="users"></i></span><span><i
+                    data-lucide="calendar-days"></i></span><span><i data-lucide="chart-no-axes-combined"></i></span>
+              </aside>
+              <div class="dash-content">
+                <div class="dash-heading">
+                  <div><small>MONDAY, NOVEMBER 09</small>
+                    <h3>Good morning, Alex <span>✦</span></h3>
+                  </div>
+                  <div class="dash-user">AM</div>
+                </div>
+                <div class="metric-grid">
+                  <div class="metric-card"><small>Open positions</small><strong>12</strong><em>+2 this month</em></div>
+                  <div class="metric-card"><small>Active candidates</small><strong>248</strong><em>+18 this week</em>
+                  </div>
+                  <div class="metric-card"><small>Interviews</small><strong>36</strong><em>8 scheduled today</em></div>
+                </div>
+                <div class="pipeline-card">
+                  <div class="pipeline-title"><strong>Hiring pipeline</strong><small>All open roles <i
+                        data-lucide="chevron-down"></i></small></div>
+                  <div class="pipeline-row"><span>Applied</span>
+                    <div class="pipeline-track"><b style="width:88%"></b></div><strong>124</strong>
+                  </div>
+                  <div class="pipeline-row"><span>Screening</span>
+                    <div class="pipeline-track"><b style="width:58%"></b></div><strong>82</strong>
+                  </div>
+                  <div class="pipeline-row"><span>Interview</span>
+                    <div class="pipeline-track"><b style="width:34%"></b></div><strong>46</strong>
+                  </div>
+                  <div class="pipeline-row"><span>Offer</span>
+                    <div class="pipeline-track"><b style="width:15%"></b></div><strong>18</strong>
+                  </div>
+                </div>
+                <div class="dash-bottom">
+                  <div class="candidate-mini"><small>NEXT INTERVIEW</small>
+                    <div><span class="mini-avatar">JD</span><span><b>Jordan Davis</b><small>Product Designer · 10:30
+                          AM</small></span><i data-lucide="arrow-up-right"></i></div>
+                  </div>
+                  <div class="hire-stat"><small>THIS MONTH</small><strong>18 <span>hires</span></strong>
+                    <div class="stat-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note"><span class="note-icon"><i data-lucide="sparkles"></i></span><span><b>One connected
+                workflow</b><small>Your team, always in sync</small></span></div>
+        </div>
+      </div>
+      <div class="container trust-row"><span>BUILT FOR TEAMS THAT VALUE PEOPLE</span>
+        <div><b>northstar</b><b class="trust-serif">orbit<span>.</span></b><b>vertex</b><b
+            class="trust-wide">LUMEN</b><b>craft<span class="brand-accent">co</span></b></div>
+      </div>
+    </section>
+
+    <section class="section-pad features-section" id="features">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">EVERYTHING IN ONE PLACE</span>
+          <h2>Recruitment, without<br><span>the busywork.</span></h2>
+          <p>From the first job brief to the signed offer, keep the whole hiring journey moving together.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-highlight">
+            <div class="feature-icon"><i data-lucide="users-round"></i></div>
+            <h3>Candidate pipeline</h3>
+            <p>See every applicant's journey at a glance. Move candidates through clear stages and keep every next step
+              visible.</p><a href="#how-it-works">Explore pipeline <i data-lucide="arrow-up-right"></i></a>
+            <div class="mini-pipeline"><span>Applied <b>24</b></span><span>Review <b>16</b></span><span>Interview
+                <b>8</b></span></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon purple"><i data-lucide="file-search"></i></div>
+            <h3>Resume insights</h3>
+            <p>Organize candidate profiles and review skills, experience and role requirements in one consistent view.
+            </p>
+            <div class="feature-visual resume-visual"><i data-lucide="file-text"></i><span><b>Candidate
+                  profile</b><small>Skills · Experience · Notes</small></span><i data-lucide="check-circle-2"></i></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon orange"><i data-lucide="calendar-check"></i></div>
+            <h3>Interview planning</h3>
+            <p>Coordinate interview stages, schedules and structured feedback without scattered conversations.</p>
+            <div class="feature-visual calendar-visual"><b>WED</b><strong>12</strong><span>Interview day</span><i
+                data-lucide="clock"></i></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon green"><i data-lucide="chart-no-axes-combined"></i></div>
+            <h3>Hiring analytics</h3>
+            <p>Understand pipeline activity and hiring progress with simple, useful team-level snapshots.</p>
+            <div class="analytics-visual"><span>Hiring activity</span>
+              <div><i style="height:30%"></i><i style="height:52%"></i><i style="height:42%"></i><i
+                  style="height:78%"></i><i style="height:58%"></i><i style="height:92%"></i><i style="height:70%"></i>
+              </div>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon blue"><i data-lucide="messages-square"></i></div>
+            <h3>Team collaboration</h3>
+            <p>Share interview notes and hiring feedback so decisions are thoughtful, transparent and aligned.</p>
+            <div class="comment-visual"><span class="mini-avatar">SK</span><span><b>Samira K.</b><small>Strong portfolio
+                  and clear thinking.</small></span><i data-lucide="message-circle"></i></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon pink"><i data-lucide="wand-sparkles"></i></div>
+            <h3>AI-assisted workflows</h3>
+            <p>Use optional AI assistance to draft job descriptions and interview questions. People make the decisions.
+            </p>
+            <div class="ai-visual"><i data-lucide="sparkles"></i><span>Draft a role description</span><b>Try demo</b>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad how-section" id="how-it-works">
+      <div class="container how-grid">
+        <div class="section-heading"><span class="eyebrow">A CLEARER WAY TO HIRE</span>
+          <h2>Four steps.<br><span>One smooth flow.</span></h2>
+          <p>Give your hiring team a shared process that is easy to follow and simple to improve.</p><a
+            class="text-link" href="#contact">See how your team can start <i data-lucide="arrow-up-right"></i></a>
+        </div>
+        <div class="steps-list">
+          <article class="step-item"><span>01</span>
+            <div>
+              <h3>Create a role</h3>
+              <p>Set up a job with responsibilities, skills and a clear hiring plan.</p>
+            </div><i data-lucide="briefcase-business"></i>
+          </article>
+          <article class="step-item"><span>02</span>
+            <div>
+              <h3>Build your shortlist</h3>
+              <p>Collect applications and organize candidates in one shared pipeline.</p>
+            </div><i data-lucide="list-filter"></i>
+          </article>
+          <article class="step-item"><span>03</span>
+            <div>
+              <h3>Meet and evaluate</h3>
+              <p>Plan interviews, share scorecards and capture structured feedback.</p>
+            </div><i data-lucide="calendar-check"></i>
+          </article>
+          <article class="step-item"><span>04</span>
+            <div>
+              <h3>Make the right hire</h3>
+              <p>Move forward with a clear decision and a consistent candidate experience.</p>
+            </div><i data-lucide="party-popper"></i>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad about-section" id="about">
+      <div class="container about-panel">
+        <div><span class="eyebrow">PEOPLE FIRST, ALWAYS</span>
+          <h2>Better tools.<br><span>More human hiring.</span></h2>
+          <p>HireFlow is a concept recruitment workspace designed to help teams spend less time coordinating and more
+            time connecting with people. It brings hiring activity into one understandable place, while keeping human
+            judgment at the center of every decision.</p>
+          <div class="about-points"><span><i data-lucide="check-circle-2"></i> Clear, consistent
+              workflows</span><span><i data-lucide="check-circle-2"></i> Collaborative team decisions</span><span><i
+                data-lucide="check-circle-2"></i> People-led, AI-assisted tools</span></div>
+        </div>
+        <div class="about-art">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="about-center"><i data-lucide="workflow"></i><b>hireflow</b><small>People in motion</small></div>
+          <span class="orbit-tag tag-one"><i data-lucide="users"></i> People</span><span class="orbit-tag tag-two"><i
+              data-lucide="sparkles"></i> Ideas</span><span class="orbit-tag tag-three"><i data-lucide="target"></i>
+            Purpose</span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="section-pad pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">SIMPLE, TRANSPARENT PRICING</span>
+          <h2>A plan for every<br><span>growing team.</span></h2>
+          <p>Start with the essentials. Upgrade when your hiring grows.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card"><span class="plan-label">STARTER</span>
+            <h3>For small teams</h3>
+            <p>Get your hiring organized with the essentials.</p>
+            <div class="price"><strong>Free</strong><small>forever demo plan</small></div><a
+              class="button button-outline full-width" href="#contact" data-plan="Starter">Choose Starter</a>
+            <ul>
+              <li><i data-lucide="check"></i> Up to 3 active jobs</li>
+              <li><i data-lucide="check"></i> Candidate pipeline</li>
+              <li><i data-lucide="check"></i> Interview scheduling</li>
+              <li><i data-lucide="check"></i> Basic team notes</li>
+            </ul>
+          </article>
+          <article class="price-card price-popular"><span class="popular-badge">MOST POPULAR</span><span
+              class="plan-label">GROWTH</span>
+            <h3>For growing teams</h3>
+            <p>More visibility and collaboration for busy hiring teams.</p>
+            <div class="price"><strong>$29</strong><small>/ user / month</small></div><a
+              class="button button-primary full-width" href="#contact" data-plan="Growth">Choose Growth <i
+                data-lucide="arrow-up-right"></i></a>
+            <ul>
+              <li><i data-lucide="check"></i> Unlimited active jobs</li>
+              <li><i data-lucide="check"></i> Advanced pipeline views</li>
+              <li><i data-lucide="check"></i> Hiring analytics</li>
+              <li><i data-lucide="check"></i> AI-assisted drafting demo</li>
+              <li><i data-lucide="check"></i> Team scorecards</li>
+            </ul>
+          </article>
+          <article class="price-card"><span class="plan-label">ENTERPRISE</span>
+            <h3>For larger teams</h3>
+            <p>Flexible workflows for complex hiring needs.</p>
+            <div class="price"><strong>Let's talk</strong><small>custom plan</small></div><a
+              class="button button-outline full-width" href="#contact" data-plan="Enterprise">Contact sales</a>
+            <ul>
+              <li><i data-lucide="check"></i> Multi-team workspace</li>
+              <li><i data-lucide="check"></i> Custom hiring workflows</li>
+              <li><i data-lucide="check"></i> Priority support</li>
+              <li><i data-lucide="check"></i> Custom reporting</li>
+            </ul>
+          </article>
+        </div>
+        <p class="pricing-note">Illustrative concept pricing for this front-end demonstration.</p>
+      </div>
+    </section>
+
+    <section class="section-pad contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading"><span class="eyebrow">LET'S MAKE HIRING FLOW</span>
+          <h2>Ready for a<br><span>better workflow?</span></h2>
+          <p>Tell us a little about your team. We'll show you how a more connected hiring process could work.</p>
+          <div class="contact-detail"><i
+              data-lucide="mail"></i><span><small>EMAIL</small><b>hello@hireflow.example</b></span></div>
+          <div class="contact-detail"><i data-lucide="clock"></i><span><small>RESPONSE TIME</small><b>Usually within one
+                business day</b></span></div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Request a product demo</h3>
+          <p>Fields marked * are required.</p>
+          <label for="full-name">Full name *</label><input id="full-name" name="name" type="text"
+            placeholder="Your name" required minlength="2" autocomplete="name">
+          <label for="email">Work email *</label><input id="email" name="email" type="email"
+            placeholder="you@company.com" required autocomplete="email">
+          <label for="company">Company *</label><input id="company" name="company" type="text"
+            placeholder="Company name" required minlength="2" autocomplete="organization">
+          <label for="team-size">Team size</label><select id="team-size" name="teamSize">
+            <option value="">Select team size</option>
+            <option>1–10</option>
+            <option>11–50</option>
+            <option>51–200</option>
+            <option>201+</option>
+          </select>
+          <label for="message">What would you like to improve?</label><textarea id="message" name="message" rows="3"
+            placeholder="Tell us about your hiring process..."></textarea>
+          <button class="button button-primary full-width" type="submit">Request demo <i
+              data-lucide="arrow-up-right"></i></button>
+          <div class="form-message" id="form-message" role="status" aria-live="polite"></div><small
+            class="form-disclaimer">Demo form only. Your information is not sent to a server.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><a class="brand footer-brand" href="#top"><span class="brand-mark"><i
+            data-lucide="workflow"></i></span><span>hire<span class="brand-accent">flow</span></span></a>
+      <p>Make room for better conversations.</p>
+      <div class="footer-links"><a href="#features">Features</a><a href="#pricing">Pricing</a><a
+          href="#about">About</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year">2026</span> HireFlow. Concept project for
+        front-end demonstration.</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+</body>
+
+</html>
